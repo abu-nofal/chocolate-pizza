@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    position: relative;
+}
+
+#firstd{
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+} 
+
+.one {
+    float: left;
+    
+}
+.tow{
+    float: right;
+    
+}
+
+#secoundD{
+    float: right;
+}
+
+
+
+
+hr {
+    background-image: url('img/hr-img.png');
+    height: 10px;
+}
+
+.checked {
+    text-decoration: line-through;
+}
+#print2 {
+position: relative;
+width: 960px;
+}
+#print{
+    position: absolute;
+    right: 0;
+    top: 0%;
+    
+}
+#pizza{
+    width: 960px;
+}
+p{
+    color: grey;
+}
+fieldset{
+    background-image: url('img/list-bg.png');
+}
+#memo {
+    margin-right: 10px;
+}
