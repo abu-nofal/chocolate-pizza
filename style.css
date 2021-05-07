@@ -7,31 +7,53 @@ body{
 }
 
 header{
-    height: 80px;
+    height: 70px;
     position: relative;
+    width: 960px;
+    margin-top: 5px;
 }
 
-#firstd{
-    position: absolute;
-    top: 0;
-    left: 0;
-   
-} 
 
-.one {
+header img{
     float: left;
+    margin-right: 5px;
+}
+h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 350;
+    text-transform: capitalize;
+    font-style: italic;
+    width: 460px;
+}
+header p {
+    color: grey;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+#sec2{
+    
+    position: absolute;
+  top: 10px;
+  right: 0;
+    
     
 }
-.tow{
-    float: right;
-    
+ul{
+    margin-top: 3px;
 }
-
-#secoundD{
-    float: right;
+li {
+    display: inline;
+   
 }
-
-
+li img {
+    margin: 0 2px 0 0;
+}
+#memo {
+    margin-right: 12px;
+}
 
 
 hr {
@@ -39,28 +61,123 @@ hr {
     height: 10px;
 }
 
-.checked {
-    text-decoration: line-through;
+
+h1{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 38px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
 }
-#print2 {
-position: relative;
-width: 960px;
+
+main h4{
+    color: grey;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    float: left;
 }
-#print{
-    position: absolute;
-    right: 0;
-    top: 0%;
+#print2 p{
+    float: right;
+    color: grey;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
     
 }
-#pizza{
+article img {
     width: 960px;
+    margin-top: 20px;
 }
-p{
+
+article p {
     color: grey;
+    margin-top: 20px;
+    line-height: 21px;
 }
-fieldset{
-    background-image: url('img/list-bg.png');
+#list-img{
+    position: relative;
 }
-#memo {
-    margin-right: 10px;
+#field #right{
+    padding: 20px;
+    position: absolute;
+    top: 7%;
+    left: 40px;
+    
 }
+
+#field #left{
+    padding: 20px;
+    position: absolute;
+    top: 7%;
+    left: 400px;
+}
+#list-img {
+    margin: 10px 0;
+}
+input{
+    margin-bottom: 15px;
+}
+.checked  {
+    text-decoration: line-through;
+}
+#van1 {
+    float: left;
+    margin-right: 5px;
+}
+
+button{
+    float: right;
+    margin-top: -60px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    background-color: rgba(187, 5, 5, 0.781);
+    color: white;
+    font-weight: 500;
+}
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-transform:capitalize;
+}
+#van p {
+    color: grey;
+ 
+    line-height: 21px;
+}
+
+
+footer{
+    clear: both;
+    margin-top: 60px;
+    
+}
+footer hr {
+    /* border:none; */
+    border: 1px solid #d7d7d7;
+    height: 0%;
+    background-image: none;
+}
+
+footer div {
+    text-align: center;
+}
+footer div img{
+    position: relative;
+    top: -25px;
+    background: white;
+    padding: 0 15px;
+}
+footer p {
+    text-align: center;
+    color: grey;
+ 
+    line-height: 21px;
+    text-transform: capitalize;
+    font-weight: 500;
+
+}
+
